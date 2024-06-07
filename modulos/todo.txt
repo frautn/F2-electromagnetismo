@@ -1,0 +1,4 @@
+
+1. Si es posible: Cambiar \hat por \vu y cambiar \vec por \va*.
+2. Eliminar espacios antes de vectores unitarios: \, o ~
+3. Agregar Objetivos en cada cuaderno.

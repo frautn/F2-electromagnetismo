@@ -1,0 +1,34 @@
+\documentclass[border=3pt]{standalone}
+
+%Drawing
+\usepackage{tikz}
+
+%3D
+\usepackage{tikz-3dplot}
+
+%Tikz Library
+\usetikzlibrary{angles, quotes, intersections}
+
+%Styles
+\tikzset{axis/.style={thick,-latex}}
+\tikzset{vec/.style={thick,blue, -latex}}
+\tikzset{univec/.style={thick,red,-latex}}
+
+%Notation
+\usepackage{physics}
+\usepackage{bm}
+
+\begin{document}
+
+\begin{tikzpicture}[every node/.style={scale=1.75}, scale=1]
+    \draw [blue, dashed] (0,0)--(-5,-8.66);
+    \draw [blue, dashed] (0,0)--(5,-8.66);
+    \draw [blue, dashed] (-5,-8.66)--(5,-8.66);
+    \draw [blue, dashed] (0,0)--(0,-8.66);
+    \fill [black](-5,-8.66) circle(6pt) node[left] {$q_1~$};
+    \fill [black](0,0) circle(8pt) node[left] {$q_2~$};
+    \fill [black](5,-8.66) circle(8pt) node[right] {~$q_3$};
+    \fill [red](0,-8.66) circle(8pt) node[above right] {$P$};
+\end{tikzpicture}
+
+\end{document}

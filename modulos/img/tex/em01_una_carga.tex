@@ -1,0 +1,73 @@
+\documentclass[border=3pt]{standalone}
+
+%Drawing
+\usepackage{tikz}
+
+%3D
+\usepackage{tikz-3dplot}
+
+%Tikz Library
+\usetikzlibrary{angles, quotes, intersections}
+
+%Styles
+\tikzset{axis/.style={thick,-latex}}
+\tikzset{vec/.style={thick,blue, -latex}}
+\tikzset{univec/.style={thick,red,-latex}}
+
+%Notation
+\usepackage{physics}
+\usepackage{bm}
+
+\begin{document}
+
+	\tdplotsetmaincoords{70}{110}
+
+	\pgfmathsetmacro{\sca}{2}
+
+	%
+	% posicion q:
+	\pgfmathsetmacro{\qx}{2.5*\sca}
+	\pgfmathsetmacro{\qy}{2*\sca}
+	\pgfmathsetmacro{\qz}{2.9*\sca}
+	\pgfmathsetmacro{\px}{1*\sca}
+	\pgfmathsetmacro{\py}{3*\sca}
+	\pgfmathsetmacro{\pz}{3.25*\sca}
+	% \pgfmathsetmacro{\qtheta}{48.17}
+	% \pgfmathsetmacro{\qphi}{63.5}
+	%
+
+	\begin{tikzpicture}[tdplot_main_coords, every node/.style={scale=1.75}]
+		%Axis
+		\draw[axis] (0,0,0) -- (3.5*\sca,0,0) node [pos=1.05] {$i$};
+		\draw[axis] (0,0,0) -- (0,3.5*\sca,0) node [pos=1.05] {$j$};
+		\draw[axis] (0,0,0) -- (0,0,3.8*\sca)  node [pos=1.05] {$k$};
+
+		%Charge
+		\draw[dashed] (\qx,0,0) -- (\qx,\qy,0) node [pos=0, left] {$x_0$};
+		\draw[dashed] (0,\qy,0) -- (\qx,\qy,0) node [pos=0, above] {$y_0$};
+		\draw[dashed] (0,0,\qz) -- (\qx,\qy,\qz) node [pos=0, left] {$z_0$};
+		\draw[vec] (0,0,0) -- (\qx-0.1,\qy-0.1,\qz-0.1) node[pos=0.75, left] {$\vec{\text{x}}_0$};
+
+		%P
+		\draw[dashed] (\px,0,0) -- (\px,\py,0) node [pos=0, left] {$x$};
+		\draw[dashed] (0,\py,0) -- (\px,\py,0) node [pos=0, above] {$y$};
+		\fill[white] (\px,\py,0.8) circle (3pt);
+		\draw[dashed] (\px,\py,\pz) -- (\px,\py,0);
+		\draw[dashed] (0,0,\pz) -- (\px,\py,\pz) node [pos=0, left] {$z$};
+		\draw[vec] (0,0,0) -- (\px-0.1,\py-0.1,\pz-0.1) node[pos=0.75, below] {$\vec{\text{x}}$};
+		\fill[white] (\qx,\qy,4.3) circle (4pt);
+		\fill[white] (\qx,\qy,1.15) circle (4pt);
+		\fill[white] (\qx,\qy,1.95) circle (3pt);
+		\draw[dashed] (\qx,\qy,\qz) -- (\qx,\qy,0);
+
+		\draw[vec, red] (\qx,\qy,\qz) -- (\px,\py,\pz) node[pos=0.4, above] {$\vec{\text{r}}$};
+		\fill[black] (\qx,\qy,\qz) circle (3pt) node [above] {$q$};
+
+		\draw[vec, red] (\px,\py,\pz) -- +(0.4*\px-0.4*\qx, 0.4*\py - 0.4*\qy, 0.4*\pz - 0.4*\qz) node[pos=0.4, above] {$\hat{r}$};
+
+		%Angles
+		% \tdplotdrawarc{(0,0,0)}{0.7}{0}{\phivec}{below}{$\phi$}
+
+	\end{tikzpicture}
+
+\end{document}

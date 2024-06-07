@@ -1,27 +1,33 @@
-# Data-Driven Chemistry
-[![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+---
+layout: course
+author: edgui
+
+title: F2 - Electromagnetismo
+---
+
+
+
+# Electromagnetismo usando Python
+<!-- [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![License: CC-BY 4.0](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Github All Releases](https://img.shields.io/github/downloads/Edinburgh-Chemistry-Teaching/Data-driven-chemistry/total)]()
-[![DOI](https://jose.theoj.org/papers/10.21105/jose.00192/status.svg)](https://doi.org/10.21105/jose.00192)
+[![DOI](https://jose.theoj.org/papers/10.21105/jose.00192/status.svg)](https://doi.org/10.21105/jose.00192) -->
 
 Data-Driven Chemistry is a collection of learning material for an introductory Python course for undergraduate chemistry students. The presented material here serves as a public version of [Data-Driven Chemistry](http://www.drps.ed.ac.uk/22-23/dpt/cxchem08031.htm) as taught at the University of Edinburgh in the School of Chemistry. 
 
-## Course Content:
+## Actividades:
 
-| Unit | Content Summary                 | Google CoLab|
+| Módulo | Contenido                 | Enlace |
 |------|---------------------------------|------|
-| 1    |  An Introduction to algorithmic thinking and using Jupyter notebooks               | [![Unit_01](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/Data-driven-chemistry/blob/main/Unit_01/Unit_01_problem_solving_I.ipynb) |
-| 2    | Variables (int, float, string), Lists, Dictionaries and Tuples in Python|[![Unit_02](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/Data-driven-chemistry/blob/main/Unit_02/Unit_02_variables_I.ipynb)|
-| 3    | Loops and conditional statements | [![Unit_03](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/Data-driven-chemistry/blob/main/Unit_03/Unit_03_loops_I.ipynb)|
-| 4    | Functions and basic Input/Output  | [![Unit_04](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/Data-driven-chemistry/blob/main/Unit_04/Unit_04_functions_I.ipynb)|
-| 5    | An introduction to plotting, using units and statistical analysis   | [![Unit_05](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/Data-driven-chemistry/blob/main/Unit_05/Unit_05_I_numerical_data.ipynb)|
-| 6    | Comparison of distributions, t-tests, and working with molecular geometries           |[![Unit_06](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/Data-driven-chemistry/blob/main/Unit_06/Unit_06_statistics_I.ipynb) | 
-| 7    | Correlations in data and model fitting            | [![Unit_07](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/Data-driven-chemistry/blob/main/Unit_07/Unit_07_fitting_I.ipynb) |
-| 8    | Applications I: Finding peaks in mass spectrometry data, fitting radioactive decay pathways and writing a chemistry quiz                    | [![Unit_08](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/Data-driven-chemistry/blob/main/Unit_08/Unit_08_Applications_I.ipynb) |
-| 9    | Applications II:  Working with UV-Vis and small angle X-ray scattering (SAXS) data                                                        | [![Unit_09](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/Data-driven-chemistry/blob/main/Unit_09/Unit_09_applications_II_part_I.ipynb)|
-| 10   | Applications III: Nuclear magnetic resonance (NMR) data                                                    | [![Unit_10](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/Data-driven-chemistry/blob/main/Unit_10/Unit_10_NMR_application_student.ipynb)|
+| 1    |  Campo eléctrico de cargas puntuales | [![modulo_1](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2/blob/main/electromagnetismo/em01_campo_electrico.ipynb) |
+| 2    | Potencial eléctrico |[![modulo_2](assets/img/colab-badge-es.svg)]()|
+| 3    | Campo eléctrico de distribuciones de cargas contínuas - parte 1: cálculos numéricos sumando cargas puntuales |[![modulo_3](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2/blob/main/electromagnetismo/em02_distribuciones_continuas.ipynb)|
+| 4    | Campo eléctrico de distribuciones de cargas contínuas - parte 2: cálculos simbólicos |[![modulo_4](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2/blob/main/electromagnetismo/em02_distribuciones_continuas.ipynb)|
+|     | Ejercicios del módulo 4 (alguna descripción) |[<img src="assets/img/Icon_pdf_file.svg" alt="pdf_icon" width="25"/>](https://colab.research.google.com/github/frautn/F2/blob/main/electromagnetismo/em02_distribuciones_continuas.ipynb)|
+| 5   | Conductores |[![modulo_5](assets/img/colab-badge-es.svg)]()|
 
-## Dependencies and Installation
+
+<!-- ## Dependencies and Installation
 
 This project uses the Python programming language, and requires Python >= 3.9.
 
@@ -120,4 +126,4 @@ Paper v. 1.0.1
 
 ## License
 
-These materials are made freely available, and are licensed under a [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
+These materials are made freely available, and are licensed under a [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. -->

@@ -1,0 +1,26 @@
+title: Física 2
+author:
+  name: Edgardo Palazzo
+  email: "epalazzo@fra.utn.edu.ar"
+logopath: assets/img/logoUTN-sm.png
+logowidth: 100
+logoalt: Logo UTNFRA
+logolink: https://fra.utn.edu.ar/
+# author: Edgardo Palazzo
+# email: epalazzo@fra.utn.edu.ar
+description: >-
+  UTN FRA
+baseurl: /F2
+url: https://frautn.github.io/
+github_username: frautn
+
+# Build settings
+theme: minima
+
+
+# plugins:
+  # - jekyll-feed
+
+# header_pages:
+  # - about.md
+  # - portfolio.md

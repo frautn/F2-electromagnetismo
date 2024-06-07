@@ -1,0 +1,107 @@
+\documentclass[border=3pt]{standalone}
+
+%Drawing
+\usepackage{tikz}
+
+%3D
+\usepackage{tikz-3dplot}
+
+%Tikz Library
+\usetikzlibrary{angles, quotes, intersections}
+
+%Styles
+\tikzset{axis/.style={thick,-latex}}
+\tikzset{vec/.style={thick,blue, -latex}}
+\tikzset{univec/.style={thick,red,-latex}}
+
+%Notation
+\usepackage{physics}
+\usepackage{bm}
+
+\definecolor{amber}{rgb}{1.0, 0.5, 0}
+
+\begin{document}
+
+	\tdplotsetmaincoords{70}{110}
+
+	\pgfmathsetmacro{\sca}{2}
+
+	%
+	% posicion q:
+	\pgfmathsetmacro{\qxa}{7}
+	\pgfmathsetmacro{\qya}{1}
+	\pgfmathsetmacro{\qza}{0}
+	\pgfmathsetmacro{\qxn}{-4}
+	\pgfmathsetmacro{\qyn}{5}
+	\pgfmathsetmacro{\qzn}{3}
+	\pgfmathsetmacro{\px}{1}
+	\pgfmathsetmacro{\py}{2.3}
+	\pgfmathsetmacro{\pz}{5}
+	%
+
+	\begin{tikzpicture}[tdplot_main_coords, every node/.style={scale=1.75}]
+		%Axis
+		\draw[axis] (0,0,0) -- (8,0,0) node [pos=1.05] {$i$};
+		\draw[axis] (0,0,0) -- (0,7,0) node [pos=1.05] {$j$};
+		\draw[axis] (0,0,0) -- (0,0,6.5)  node [pos=1.05] {$k$};
+
+        \draw[line width=5, color = amber] (-4,5,3) .. controls (4,5,0) and (4,0,0).. (7,1,0) ;
+        \draw[dotted, line width=3] (-4,5,3) ..controls (4,5,0) and (4,0,0).. (7,1,0) ;
+
+		%Charge 1
+		\draw[dashed] (\qxa,0,0) -- (\qxa,\qya,0) node [pos=-0.1, above] {$x_1$};
+		% \draw[dashed] (0,0,\qza) -- (\qxa,\qya,\qza) node [pos=0, left] {$z_0$};
+		\fill[white] (4,0,0) circle (5pt);
+		\draw[vec] (0,0,0) -- (\qxa-0.1,\qya-0.1,\qza-0.1) node[pos=0.5, left] {$\vec{\text{x}}_1$};
+        \draw[] (\qxa,\qya,\qza) node[blue, below] {$q_1$};
+
+		%Charge N
+		% \draw[dashed] (\qxn,0,0) -- (\qxn,\qyn,0) node [pos=0.1, above] {$x_N$};
+		\draw[dashed] (0,\qyn,0) -- (\qxn,\qyn,0) node [pos=0, below] {$y_N$};
+		\draw[dashed] (0,0,\qzn) -- (\qxn,\qyn,\qzn) node [pos=0, left] {$z_N$};
+		\draw[vec] (0,0,0) -- (\qxn-0.1,\qyn-0.1,\qzn-0.1) node[pos=0.65, above] {$\vec{\text{x}}_N$};
+		\draw[dashed] (\qxn,\qyn,\qzn) -- (\qxn,\qyn,0);
+        \draw[] (\qxn,\qyn,\qzn) node[blue, right] {$q_N$};
+		\fill[white] (0,\qya,.5) circle (8pt);
+		\draw[dashed] (0,\qya,0) -- (\qxa,\qya,0) node [pos=0, above] {$y_1$};
+
+		%P
+		\draw[dashed] (\px,0,0) -- (\px,\py,0) node [pos=0, left] {$x$};
+		\draw[dashed] (0,\py,0) -- (\px,\py,0) node [pos=0, above] {$y$};
+		\fill[white] (\px,\py,1.75) circle (3pt);
+		\fill[white] (\px,\py,3.85) circle (4pt);
+
+		\draw[dashed] (\px,\py,\pz) -- (\px,\py,0);
+		\draw[dashed] (0,0,\pz) -- (\px,\py,\pz) node [pos=0, left] {$z$};
+		% \draw[vec] (0,0,0) -- (\px-0.1,\py-0.1,\pz-0.1) node[pos=0.75, below] {$\vec{\text{x}}$};
+
+
+		% \fill[white] (\qxa,\qya,4.3) circle (4pt);
+		% \fill[white] (\qxa,\qya,1.15) circle (4pt);
+		% \fill[white] (\qxa,\qya,1.95) circle (3pt);
+		% \draw[dashed] (\qxa,\qya,\qza) -- (\qxa,\qya,0);
+
+		\fill[white] (0,1.3,3.3) circle (4pt);
+		\fill[white] (0,0,0.55) circle (3pt);
+		\fill[white] (1.5,0,0) circle (3pt);
+
+		\draw[vec, red] (\qxa,\qya,\qza) -- (\px,\py,\pz) node[pos=0.7, left] {$\vec{\text{r}_1}$};
+
+		\pgfmathsetmacro{\ra}{((\px-\qxa)^2+(\py-\qya)^2+(\pz-\qza)^2)^0.5}
+		\pgfmathsetmacro{\rxa}{(\px-\qxa)/\ra}
+		\pgfmathsetmacro{\rya}{(\py-\qya)/\ra}
+		\pgfmathsetmacro{\rza}{(\pz-\qza)/\ra}
+		\draw[vec, red] (\px,\py,\pz) --
+		+(\rxa, \rya, \rza) node[pos=1, above] {$\hat{r}_1$};
+
+		\draw[vec, red] (\qxn,\qyn,\qzn) -- (\px,\py,\pz) node[pos=0.5, above] {$\vec{\text{r}_N}$};
+		\pgfmathsetmacro{\rn}{((\px-\qxn)^2+(\py-\qyn)^2+(\pz-\qzn)^2)^0.5}
+		\pgfmathsetmacro{\rxn}{(\px-\qxn)/\rn}
+		\pgfmathsetmacro{\ryn}{(\py-\qyn)/\rn}
+		\pgfmathsetmacro{\rzn}{(\pz-\qzn)/\rn}
+		\draw[vec, red] (\px,\py,\pz) --
+		+(\rxn, \ryn, \rzn) node[pos=0.7, left] {$\hat{r}_N$};
+
+	\end{tikzpicture}
+
+\end{document}

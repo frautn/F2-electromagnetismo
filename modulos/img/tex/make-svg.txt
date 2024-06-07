@@ -1,0 +1,10 @@
+No está funcionando. Uso inkscape.
+
+# output dvi from latex file:
+
+latex em01_una_carga.tex
+
+# convert to svg: execute command from the output folder (img)
+
+dvisvgm tex/em01_una_carga.dvi
+
