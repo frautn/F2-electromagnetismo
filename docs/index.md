@@ -9,11 +9,9 @@ title: F2 - Electromagnetismo
 
 <img src="assets/img/logoUTN-500.svg" alt="Universidad Tecnológica Nacional - Facultad Regional Avellaneda" width="120"/>
 
-### Física 2
 </div>
-</br>
 
-
+&nbsp;
 
 # Electromagnetismo usando Python
 <!-- [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
