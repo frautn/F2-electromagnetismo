@@ -9,11 +9,12 @@ title: F2 - Electromagnetismo
 
 <img src="assets/img/logoUTN-500.svg" alt="Universidad Tecnológica Nacional - Facultad Regional Avellaneda" width="120"/>
 
-</div>
-
 &nbsp;
 
 # Electromagnetismo usando Python
+</div>
+
+
 <!-- [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![License: CC-BY 4.0](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Github All Releases](https://img.shields.io/github/downloads/Edinburgh-Chemistry-Teaching/Data-driven-chemistry/total)]()
