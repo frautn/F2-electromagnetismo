@@ -18,11 +18,11 @@ En este repositorio se encuentra el material para realizar algunas prácticas co
 
 | Módulo | Contenido                 | Enlace |
 |------|---------------------------------|------|
-| 1    |  Campo eléctrico de cargas puntuales | [![modulo_1](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2/blob/main/electromagnetismo/em01_campo_electrico.ipynb) |
+| 1    |  Campo eléctrico de cargas puntuales | [![modulo_1](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2/blob/main/modulos/em01_campo_electrico.ipynb) |
 | 2    | Potencial eléctrico |[![modulo_2](docs/assets/img/colab-badge-es.svg)]()|
-| 3    | Campo eléctrico de distribuciones de cargas contínuas - parte 1: cálculos numéricos sumando cargas puntuales |[![modulo_3](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2/blob/main/electromagnetismo/em02_distribuciones_continuas.ipynb)|
-| 4    | Campo eléctrico de distribuciones de cargas contínuas - parte 2: cálculos simbólicos |[![modulo_4](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2/blob/main/electromagnetismo/em02_distribuciones_continuas.ipynb)|
-|     | Ejercicios del módulo 4 |[<img src="docs/assets/img/Icon_pdf_file.svg" alt="pdf_icon" width="25"/>](https://colab.research.google.com/github/frautn/F2/blob/main/electromagnetismo/em02_distribuciones_continuas.ipynb)|
+| 3    | Campo eléctrico de distribuciones de cargas contínuas - parte 1: cálculos numéricos sumando cargas puntuales |[![modulo_3](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2/blob/main/modulos/em02_distribuciones_continuas.ipynb)|
+| 4    | Campo eléctrico de distribuciones de cargas contínuas - parte 2: cálculos simbólicos |[![modulo_4](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2/blob/main/modulos/em02_distribuciones_continuas.ipynb)|
+|     | Ejercicios del módulo 4 |[<img src="docs/assets/img/Icon_pdf_file.svg" alt="pdf_icon" width="25"/>](https://colab.research.google.com/github/frautn/F2/blob/main/modulos/em02_distribuciones_continuas.ipynb)|
 | 5   | Campos y equipotenciales en presencia de conductores |[![modulo_5](docs/assets/img/colab-badge-es.svg)]()|
 | 6   | Trabajo final de electrostática: plantilla para la entrega de los ejercicios propuestos |[![modulo_6](docs/assets/img/colab-badge-es.svg)]()|
 |     | Ejercicios de electrostática para entregar |[<img src="docs/assets/img/Icon_pdf_file.svg" alt="pdf_icon" width="25"/>]()|
