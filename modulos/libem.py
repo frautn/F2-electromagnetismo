@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 # TODO: Return axs, add
 # more control over plotting parameters.
 # Add examples in the docstring.
-def plotE(E, dx, **params):
+def plotE(E, **params):
     """
     Muestra las líneas de campo en 2D.
 
@@ -31,18 +31,17 @@ def plotE(E, dx, **params):
     title : string
     """
 
-    dy = params.get('dy', 0)
+    dx = params.get('dx', 5)
+    dy = params.get('dy', dx)
     w = params.get('w', 100)
 
-    figsize = params.get('figsize', (4,4))
+    figsize = params.get('figsize', (5,5))
     title = params.get('title', 'Líneas de campo')
     linewidth = params.get('linewidth', 0.4)
     density = params.get('density', 0.7)
 
     # Convirtiendo w a número complejo se incluye el extremo del intervalo en mgrid.
     w = w * 1j
-    if (dy==0):
-        dy = dx
     Y, X = np.mgrid[-dx:dx:w, -dy:dy:w]
     Z = 0*X
     Ei, Ej, Ek = E(X,Y,Z)
@@ -59,7 +58,7 @@ def plotE(E, dx, **params):
 # TODO: Return axs, add
 # more control over plotting parameters.
 # Add examples in the docstring.
-def plotEf(Ef, Q, dx, **params):
+def plotEf(Ef, Q, **params):
     """
     Muestra las líneas de campo en 2D.
 
@@ -87,7 +86,8 @@ def plotEf(Ef, Q, dx, **params):
     title : string
     """
 
-    dy = params.get('dy', 0)
+    dx = params.get('dx', 5)
+    dy = params.get('dy', dx)
     w = params.get('w', 100)
 
     figsize = params.get('figsize', (4,4))
@@ -97,8 +97,6 @@ def plotEf(Ef, Q, dx, **params):
 
     # Convirtiendo w a número complejo se incluye el extremo del intervalo en mgrid.
     w = w * 1j
-    if (dy==0):
-        dy = dx
     Y, X = np.mgrid[-dx:dx:w, -dy:dy:w]
     Z = 0*X
 
