@@ -7,7 +7,7 @@
 # Electromagnetismo usando Python
 </div> -->
 
-<h1>
+<!-- <h1>
 <table>
 <tr style="border:none;">
 <td style="border:none;"><a href="https://fra.utn.edu.ar/">
@@ -17,7 +17,14 @@
 </td>
 </tr>
 </table> 
+</h1> -->
+
+<!-- <image src="https://raw.githubusercontent.com/frautn/F2-electromagnetismo/main/docs/assets/img/main-title.png"  width="100"> -->
+
+<h1>
+<image src="docs/assets/img/main-title.png"  width="360">
 </h1>
+
 
 <!-- [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) -->
 [![License: CC-BY 4.0](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) 2024 Edgardo Palazzo (epalazzo@fra.utn.edu.ar)
