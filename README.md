@@ -1,28 +1,5 @@
-<!-- <div style="text-align: center;">
-
-<img src="docs/assets/img/logoUTN-500.svg" alt="Universidad Tecnológica Nacional - Facultad Regional Avellaneda" width="120"/>
-</br>
-</br>
-
-# Electromagnetismo usando Python
-</div> -->
-
-<!-- <h1>
-<table>
-<tr style="border:none;">
-<td style="border:none;"><a href="https://fra.utn.edu.ar/">
-<image src="https://raw.githubusercontent.com/frautn/F2-electromagnetismo/main/docs/assets/img/logoUTN-500.svg"  width="100">
-</a></td>
-<td style="border:none;">Electromagnetismo<br>usando Python
-</td>
-</tr>
-</table> 
-</h1> -->
-
-<!-- <image src="https://raw.githubusercontent.com/frautn/F2-electromagnetismo/main/docs/assets/img/main-title.png"  width="100"> -->
-
 <h1>
-<image src="docs/assets/img/main-title.png"  width="360">
+<image src="docs/assets/img/main-title.png"  width="400">
 </h1>
 
 
