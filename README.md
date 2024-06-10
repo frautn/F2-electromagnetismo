@@ -1,11 +1,23 @@
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 
 <img src="docs/assets/img/logoUTN-500.svg" alt="Universidad Tecnológica Nacional - Facultad Regional Avellaneda" width="120"/>
 </br>
 </br>
 
 # Electromagnetismo usando Python
-</div>
+</div> -->
+
+<h1>
+<table>
+<tr style="border:none;">
+<td style="border:none;"><a href="https://fra.utn.edu.ar/">
+<image src="https://raw.githubusercontent.com/frautn/F2-electromagnetismo/main/docs/assets/img/logoUTN-500.svg"  width="100">
+</a></td>
+<td style="border:none;">Electromagnetismo<br>usando Python
+</td>
+</tr>
+</table> 
+</h1>
 
 <!-- [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) -->
 [![License: CC-BY 4.0](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) 2024 Edgardo Palazzo (epalazzo@fra.utn.edu.ar)
