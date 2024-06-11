@@ -90,7 +90,7 @@ def plotEf(Ef, Q, **params):
     dy = params.get('dy', dx)
     w = params.get('w', 100)
 
-    figsize = params.get('figsize', (4,4))
+    figsize = params.get('figsize', (5,5))
     title = params.get('title', 'Líneas de campo')
     linewidth = params.get('linewidth', 0.4)
     density = params.get('density', 0.7)
@@ -243,9 +243,9 @@ def plotEfcontribuciones(Ef, Q, x, **params):
     plt.show()
     # plt.close()
 
-def plotEfvector(Ef, Q, X, **params):
+def plotEfVector(Ef, Q, X, **params):
     """
-    Muestra las vectores del campo en 2D usando pyplot.quiver.
+    Muestra los vectores del campo en 2D usando pyplot.quiver.
 
     Parameters
     ----------

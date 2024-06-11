@@ -1,5 +1,4 @@
 
-1. Si es posible: Cambiar \hat por \vu y cambiar \vec por \va*.
 2. Eliminar espacios antes de vectores unitarios: \, o ~
 3. Agregar Objetivos en cada cuaderno.
 4. Cuadernos extra. Podrían existir algunos para mostrar como hacer las cosas que están ocultas en la librería.
