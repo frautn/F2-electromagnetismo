@@ -84,6 +84,9 @@ Paper v. 1.0.1 -->
 - [MolSSi training Material](http://education.molssi.org)
 - [Software Carpentries introduction to Python and Data](https://software-carpentry.org/lessons/) -->
 
+## Agradecimiento
+
+Este material está inspirado y fuertemente basado en el curso de mecánica racional de la Universidad de La Matanza, curso en el cual todo se realiza en código Python. El curso se puede acceder en su repositorio: [Mecánica Analítica Computacional](https://github.com/bettachini/MecanicaAnaliticaComputacional). Se agradece a su autor [V. A. Bettachini](https://github.com/bettachini) y a su colaborador [M. A. Real](https://github.com/realmariano).
 
 ## Licencia
 

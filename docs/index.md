@@ -34,3 +34,7 @@ Material para realizar algunas prácticas computacionales que complementan el tr
 | 6   | Trabajo final de electrostática: plantilla para la entrega de los ejercicios propuestos |[![modulo_6](assets/img/colab-badge-es.svg)]()|
 |     | Ejercicios de electrostática para entregar |[<img src="assets/img/Icon_pdf_file.svg" alt="pdf_icon" width="25"/>]()|
 
+
+## Agradecimiento
+
+Este material está inspirado y fuertemente basado en el curso de mecánica racional de la Universidad de La Matanza, curso en el cual todo se realiza en código Python. El curso se puede acceder en su repositorio: [Mecánica Analítica Computacional](https://github.com/bettachini/MecanicaAnaliticaComputacional). Se agradece a su autor [V. A. Bettachini](https://github.com/bettachini) y a su colaborador [M. A. Real](https://github.com/realmariano).
