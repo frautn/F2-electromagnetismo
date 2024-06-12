@@ -88,6 +88,16 @@ Paper v. 1.0.1 -->
 
 Este material está inspirado y fuertemente basado en el curso de mecánica racional de la Universidad de La Matanza, curso en el cual todo se realiza en código Python. El curso se puede acceder en su repositorio: [Mecánica Analítica Computacional](https://github.com/bettachini/MecanicaAnaliticaComputacional). Se agradece a su autor [V. A. Bettachini](https://github.com/bettachini) y a su colaborador [M. A. Real](https://github.com/realmariano).
 
+## Entorno
+
+Este es el entorno virtual recomendado para ejecutar los cuadernos sin usar Google Colab. Es recomendable tener instalado Anaconda y crear un entorno como el siguiente:
+
+```bash
+conda create -n utn -c conda-forge python==3.10.12
+conda install -n utn -c conda-forge ipykernel ipympl matplotlib numpy pandas scikit-image sympy
+```
+
+
 ## Licencia
 
 Este material está disponible libremente sin barreras de acceso bajo una licencia [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
