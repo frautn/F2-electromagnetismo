@@ -337,7 +337,7 @@ def plotEfVector(Ef, Q, X, **params):
     # plt.close()
 
 
-def plotEfvector3d(Ef, Q, dx, **params):
+def plotEfvector3d(Ef, Q, **params):
     """
     Muestra las vectores del campo en 3D usando pyplot.quiver.
 
@@ -352,11 +352,8 @@ def plotEfvector3d(Ef, Q, dx, **params):
             ...
             [qN,xN,yN,zN]
         ]
-    dx : float
-        Se produce una grilla con -dx <= x <= dx. Si dy = 0,
-        se usan los mismos intervalos para esa variable: -dx <= y <= dx.
-    dy : float (opcional)
-        La grilla puede tener distintas dimensiones en cada eje.
+    dx,dy,dz : float
+        Se produce una grilla con -dx <= x <= dx, -dy <= y <= dy, -dz <= z <= dz.
     w : integer (opcional)
         Cantidad de particiones de cada dimensión en la grilla.
 
@@ -366,7 +363,9 @@ def plotEfvector3d(Ef, Q, dx, **params):
     title : string
     """
 
-    dy = params.get('dy', 0)
+    dx = params.get('dx', 6)
+    dy = params.get('dy', dx)
+    dz = params.get('dz', dx)
     w = params.get('w', 100)
     length = params.get('length', dx * 0.15)
 
@@ -376,9 +375,6 @@ def plotEfvector3d(Ef, Q, dx, **params):
 
     # Convirtiendo w a número complejo se incluye el extremo del intervalo en mgrid.
     w = w * 1j
-    if (dy==0):
-        dy = dx
-        dz = dx
     X, Y, Z = np.mgrid[-dx:dx:w, -dy:dy:w, -dz:dz:w]
 
     Ei, Ej, Ek = Ef(X,Y,Z,Q)
