@@ -1,0 +1,43 @@
+\documentclass[border=3pt]{standalone}
+
+%Drawing
+\usepackage{tikz}
+
+%3D
+\usepackage{tikz-3dplot}
+
+%Tikz Library
+\usetikzlibrary{angles, quotes, intersections}
+
+%Styles
+\tikzset{axis/.style={thick,-latex}}
+\tikzset{vec/.style={thick,blue, -latex}}
+\tikzset{univec/.style={thick,red,-latex}}
+
+%Notation
+\usepackage{physics}
+\usepackage{bm}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=1]
+    \draw (0,0) ellipse (0.1 and 0.2);
+    \draw (-5,0) +(90:0.1 and 0.2) arc (90:270:0.1 and 0.2);
+    \draw [black] (-5,0.2)--(0,0.2);
+    \draw [black] (-5,-0.2)--(0,-0.2);
+    \draw [blue, dotted] (0,0)--(3,0);
+    \draw [blue, dotted] (-7,0)--(-5.1,0);
+    \draw [blue, dotted] (-2.5,0.2)--(-2.5,3.5);
+    \draw [blue, dotted] (-2.5,-0.2)--(-2.5,-1);
+    \draw [blue, -latex] (-2.5,2)--(-2.5,3);
+    \draw (-2.5,1.75) node [blue] {$y$};
+    \draw [blue] (-2.5,1.25)--(-2.5,1.5);
+    \draw [blue, -latex] (-2.25,0.75)--(-1,0.75);
+    \draw [blue, -latex] (-2.75,0.75)--(-4,0.75);
+    \draw (-2.5,.75) node [blue] {$x$};
+    % \draw [blue, {Stealth}-{Stealth}] (0,-1)--(4,-1) node[midway, above] {$b$};
+    % \fill [blue](-2.5,3) circle(3pt) node[above right] {$P$};
+\end{tikzpicture}
+
+
+\end{document}
