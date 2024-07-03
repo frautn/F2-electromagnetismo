@@ -6,3 +6,5 @@
 6. Mejorar el encabezado de todos los cuadernos.
 7. Graficar V a lo largo de una línea de campo.
 8. plotEfContribuciones: mejorar la figura. La proporción, las flechas.
+9. Agregar referencias en cada cuaderno (por ejemplo, donde buscar la ecuación del campo del hilo, ayuda de sympy, etc).
+10. links dentro del documento no apuntan al lugar exacto, siempre hay un corrimiento
