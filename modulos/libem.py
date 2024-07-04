@@ -448,10 +448,77 @@ def plotEfVectorHilo(Ehilo, E, Lambda, Q, X, **params):
     plt.show()
     # plt.close()
 
+# # 202406
+# def plotEfvector3d(Ef, Q, **params):
+#     """
+#     Muestra los vectores del campo en 3D usando pyplot.quiver.
 
+#     Parameters
+#     ----------
+#     Ef : function
+#         Una función de un campo vectorial (3 variables que devuelve 3 componentes).
+#     Q : list
+#         Q = [
+#             [q1,x1,y1,z1],
+#             [q2,x2,y2,z2],
+#             ...
+#             [qN,xN,yN,zN]
+#         ]
+#     dx,dy,dz : float
+#         Se produce una grilla con -dx <= x <= dx, -dy <= y <= dy, -dz <= z <= dz.
+#         Si solo se informa dx, se usa el mismo valor para dy y dz. dx=6 por defecto.
+#     w : integer (opcional)
+#         Cantidad de particiones de cada dimensión en la grilla.
+
+#     *Además de los parámetros de matplotlib y quiver, por ejemplo:*
+#     length : float
+#     figsize : tuple
+#     title : string
+#     """
+
+#     dx = params.get('dx', 6)
+#     dy = params.get('dy', dx)
+#     dz = params.get('dz', dx)
+#     w = params.get('w', 100)
+#     length = params.get('length', dx * 0.15)
+
+#     figsize = params.get('figsize', (4,4))
+#     title = params.get('title', 'Campo eléctrico')
+#     linewidth = params.get('linewidth', 0.4)
+
+#     # Convirtiendo w a número complejo se incluye el extremo del intervalo en mgrid.
+#     w = w * 1j
+#     X, Y, Z = np.mgrid[-dx:dx:w, -dy:dy:w, -dz:dz:w]
+
+#     Ei, Ej, Ek = Ef(X,Y,Z,Q)
+
+#     fig, axs = plt.subplots(1, 1, figsize=figsize)
+#     axs = fig.add_subplot(projection='3d')
+#     axs.quiver(X, Y, Z, Ei, Ej, Ek, length=length, normalize=True)
+
+#     # Graficar las cargas.
+#     u = np.linspace(0, 2 * np.pi, 100)
+#     v = np.linspace(0, np.pi, 100)
+#     xc = dx * 0.04 * np.outer(np.cos(u), np.sin(v))
+#     yc = dx * 0.04 * np.outer(np.sin(u), np.sin(v))
+#     zc = dx * 0.04 * np.outer(np.ones(np.size(u)), np.cos(v))
+
+#     for q in Q:
+#         qq, xq, yq, zq = q
+#         if qq > 0:
+#             colorq = 'red'
+#         else :
+#             colorq = 'green'
+#         axs.plot_surface(xc + xq, yc + yq, zc + zq, color=colorq)
+#     axs.set_title(title)
+#     axs.set_xlabel('$x$ [m]')
+#     axs.set_ylabel('$y$ [m]')
+#     plt.grid()
+
+# 20240704
 def plotEfvector3d(Ef, Q, **params):
     """
-    Muestra las vectores del campo en 3D usando pyplot.quiver.
+    Muestra los vectores del campo en 3D usando pyplot.quiver.
 
     Parameters
     ----------
@@ -466,8 +533,11 @@ def plotEfvector3d(Ef, Q, **params):
         ]
     dx,dy,dz : float
         Se produce una grilla con -dx <= x <= dx, -dy <= y <= dy, -dz <= z <= dz.
+        Si solo se informa dx, se usa el mismo valor para dy y dz. dx=6 por defecto.
     w : integer (opcional)
         Cantidad de particiones de cada dimensión en la grilla.
+    X,Y,Z: 1D, 2D or 3D array-like, optional
+        The coordinates of the arrow locations. If dx is given, these are ignored.
 
     *Además de los parámetros de matplotlib y quiver, por ejemplo:*
     length : float
@@ -513,7 +583,6 @@ def plotEfvector3d(Ef, Q, **params):
     axs.set_xlabel('$x$ [m]')
     axs.set_ylabel('$y$ [m]')
     plt.grid()
-
 
 # Formatter para agregar V a las etiquetas de las equipotenciales.
 def fmtV(x):
