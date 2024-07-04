@@ -50,3 +50,6 @@ ipython_config.py
 *.dpth
 *.md5
 *.auxlock
+
+# vscode
+.vscode/
