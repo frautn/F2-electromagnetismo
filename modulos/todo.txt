@@ -23,3 +23,5 @@ agregar cálculo del anillo exacto?
     (comentar que con rho uniforme es trivial y se sabe el resultado, no se pierde el tiempo)
     Plano con carga no uniforme (sigma(r))
 
+12. em_04
+   - Segmento uniforme. Cálculo de E en varias posiciones.
