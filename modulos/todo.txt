@@ -2,6 +2,8 @@
    Agregar gráficos 3d en segmento densidad no uniforme y dos segmentos.
 
 2. Falta terminar "dos planos".
+agregar referencias campo del anillo y del plano.
+agregar cálculo del anillo exacto?
 
 2. Eliminar espacios antes de vectores unitarios: \, o ~
 3. Agregar Objetivos en cada cuaderno.
