@@ -1,4 +1,8 @@
-1. Mover libem.py o eliminar.
+1. Terminar la función de la librería para indicar las posiciones de los vectores en quiver 3d.
+   Agregar gráficos 3d en segmento densidad no uniforme y dos segmentos.
+
+2. Falta terminar "dos planos".
+
 2. Eliminar espacios antes de vectores unitarios: \, o ~
 3. Agregar Objetivos en cada cuaderno.
 4. Cuadernos extra. Podrían existir algunos para mostrar como hacer las cosas que están ocultas en la librería.
@@ -7,3 +11,13 @@
 8. plotEfContribuciones: mejorar la figura. La proporción, las flechas.
 9. Agregar referencias en cada cuaderno (por ejemplo, donde buscar la ecuación del campo del hilo, ayuda de sympy, etc).
 10. links dentro del documento no apuntan al lugar exacto, siempre hay un corrimiento
+
+11. em_03:
+    ¿qué más? ¿cuáles son ejercicios?
+    Dos superficies cilíndricas uniforme (capacitor)
+    Superficie esférica con carga no uniforme
+    (comentar que la uniforme es trivial ya, y se sabe el resultado)
+    Esfera maciza con rho(x,y,z)
+    (comentar que con rho uniforme es trivial y se sabe el resultado, no se pierde el tiempo)
+    Plano con carga no uniforme (sigma(r))
+
