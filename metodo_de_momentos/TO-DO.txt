@@ -1,2 +1,4 @@
 
-Hacer las figuras del método de momentos.
+- Hacer las figuras del método de momentos (en lugar de robarlas del libro)
+
+- Buscar como discretizar con diferentes tamaños.
