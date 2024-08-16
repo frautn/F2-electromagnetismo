@@ -31,8 +31,8 @@ Material para realizar algunas prácticas computacionales que complementan el tr
 | 4    | Distribuciones de carga contínuas - parte 2: cálculos simbólicos |[![modulo_4](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em04_distribuciones_continuas_simbolico.ipynb)|
 |     | Ejercicios del módulo 4 |[<img src="assets/img/Icon_pdf_file.svg" alt="pdf_icon" width="25"/>]()|
 | 5   | Campos y equipotenciales en presencia de conductores |[![modulo_5](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em05_conductores.ipynb)|
-| 6   | Trabajo final de electrostática: plantilla para la entrega de los ejercicios propuestos |[![modulo_6](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em06_trabajo_final.ipynb)|
-|     | Ejercicios de electrostática para entregar |[<img src="assets/img/Icon_pdf_file.svg" alt="pdf_icon" width="25"/>]()|
+| 6   | Trabajo final de electrostática: plantilla para la entrega de los ejercicios propuestos |[![modulo_6](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/actividades/actividad_01.ipynb)|
+<!-- |     | Ejercicios de electrostática para entregar |[<img src="assets/img/Icon_pdf_file.svg" alt="pdf_icon" width="25"/>]()| -->
 
 
 ## Reconocimiento
