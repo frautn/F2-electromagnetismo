@@ -1,0 +1,43 @@
+\documentclass[border=3pt]{standalone}
+
+%Drawing
+\usepackage{tikz}
+
+%3D
+\usepackage{tikz-3dplot}
+
+%Tikz Library
+\usetikzlibrary{angles, quotes, intersections}
+
+%Styles
+\tikzset{axis/.style={thick,-latex}}
+\tikzset{vec/.style={thick,blue, -latex}}
+\tikzset{univec/.style={thick,red,-latex}}
+
+%Notation
+\usepackage{physics}
+\usepackage{bm}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=1]
+    \draw (0,0) ellipse (0.05 and 0.1);
+    \draw (-5,0) +(90:0.05 and 0.1) arc (90:270:0.05 and 0.1);
+    \draw [black] (-5,0.1)--(0,0.1);
+    \draw [black] (-5,-0.1)--(0,-0.1);
+    \draw [blue, dotted] (0,0)--(1.5,0);
+    % \draw [blue, dotted] (-7,0)--(-5.1,0);
+    % \draw [blue, -latex] (-2.5,2)--(-2.5,3);
+    \draw [blue, -latex] (-5,0.1)--(-5,3);
+    \draw [blue] (-5,-1)--(-5,-0.1);
+    \draw [blue, -latex] (-7,1)--(2,1);
+    \draw (2,.75) node [blue] {$x$};
+    \draw (-5.25,3) node [blue] {$y$};
+    \draw (-5,1) node [blue, below left] {$O$};
+    \draw [blue, latex-latex] (-5,-0.75)--(0,-0.75) node[midway, above] {$L$};
+    \draw [blue, latex-latex] (0.5,0)--(0.5,1) node[midway, right] {$d$};
+    % \fill [blue](-2.5,3) circle(3pt) node[above right] {$P$};
+\end{tikzpicture}
+
+
+\end{document}
