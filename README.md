@@ -22,11 +22,11 @@ Se trata de cuadernos Jupyter que intercalan explicaciones téoricas (texto y ec
 | 2    | Potencial eléctrico |[![modulo_2](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em02_potencial_electrico.ipynb)|
 | 3    | Distribuciones de carga contínuas - parte 1: cálculos numéricos sumando cargas puntuales |[![modulo_3](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em03_distribuciones_continuas.ipynb)|
 | 4    | Distribuciones de carga contínuas - parte 2: cálculos simbólicos |[![modulo_4](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em04_distribuciones_continuas_simbolico.ipynb)|
-|     | Ejercicios del módulo 4 |[<img src="docs/assets/img/Icon_pdf_file.svg" alt="pdf_icon" width="25"/>]()|
 | 5   | Campos y equipotenciales en presencia de conductores |[![modulo_5](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em05_conductores.ipynb)|
 | 6   | Trabajo final de electrostática: plantilla para la entrega de los ejercicios propuestos |[![modulo_6](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em06_trabajo_final.ipynb)|
-|     | Ejercicios de electrostática para entregar |[<img src="docs/assets/img/Icon_pdf_file.svg" alt="pdf_icon" width="25"/>]()|
 
+
+<!-- |     | Ejercicios del módulo 4 |[<img src="docs/assets/img/Icon_pdf_file.svg" alt="pdf_icon" width="25"/>]()| -->
 
 <!-- 
 ## Reconocimientos
@@ -95,6 +95,10 @@ Este es el entorno virtual recomendado para ejecutar los cuadernos sin usar Goog
 conda create -n utn -c conda-forge python==3.10.12
 conda install -n utn -c conda-forge ipykernel ipympl matplotlib numpy pandas scikit-image sympy
 ```
+## Biblioteca frautnEM
+
+Como el objetivo principal de estas actividades es aprender más electrostática y magnetostática, y no técnicas de programación, los estudiantes solo trabajan con líneas de código simple. Los cálculos complejos y la generación de figuras se realizan mediante funciones de la biblioteca frautnEM ([https://github.com/frautn/frautnEM](https://github.com/frautn/frautnEM)), diseñada específicamente para asistir a este curso.
+
 
 ## Licencia
 

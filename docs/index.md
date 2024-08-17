@@ -25,14 +25,12 @@ Material para realizar algunas prácticas computacionales que complementan el tr
 
 | Módulo | Contenido                 | Enlace |
 |------|---------------------------------|------|
-| 1    |  Campo eléctrico de cargas puntuales | [![modulo_1](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em01_campo_electrico.ipynb) |
-| 2    | Potencial eléctrico |[![modulo_2](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em02_potencial_electrico.ipynb)|
-| 3    | Distribuciones de carga contínuas - parte 1: cálculos numéricos sumando cargas puntuales |[![modulo_3](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em03_distribuciones_continuas.ipynb)|
-| 4    | Distribuciones de carga contínuas - parte 2: cálculos simbólicos |[![modulo_4](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em04_distribuciones_continuas_simbolico.ipynb)|
-|     | Ejercicios del módulo 4 |[<img src="assets/img/Icon_pdf_file.svg" alt="pdf_icon" width="25"/>]()|
-| 5   | Campos y equipotenciales en presencia de conductores |[![modulo_5](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em05_conductores.ipynb)|
-| 6   | Trabajo final de electrostática: plantilla para la entrega de los ejercicios propuestos |[![modulo_6](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/actividades/actividad_01.ipynb)|
-<!-- |     | Ejercicios de electrostática para entregar |[<img src="assets/img/Icon_pdf_file.svg" alt="pdf_icon" width="25"/>]()| -->
+| 1    |  Campo eléctrico de cargas puntuales | [![modulo_1](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em01_campo_electrico.ipynb) |
+| 2    | Potencial eléctrico |[![modulo_2](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em02_potencial_electrico.ipynb)|
+| 3    | Distribuciones de carga contínuas - parte 1: cálculos numéricos sumando cargas puntuales |[![modulo_3](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em03_distribuciones_continuas.ipynb)|
+| 4    | Distribuciones de carga contínuas - parte 2: cálculos simbólicos |[![modulo_4](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em04_distribuciones_continuas_simbolico.ipynb)|
+| 5   | Campos y equipotenciales en presencia de conductores |[![modulo_5](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em05_conductores.ipynb)|
+| 6   | Trabajo final de electrostática: plantilla para la entrega de los ejercicios propuestos |[![modulo_6](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em06_trabajo_final.ipynb)|
 
 
 ## Reconocimiento
