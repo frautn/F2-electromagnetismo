@@ -7,7 +7,7 @@ agregar cálculo del anillo exacto?
 
 2. Eliminar espacios antes de vectores unitarios: \, o ~
 3. Agregar Objetivos en cada cuaderno.
-4. Cuadernos extra. Podrían existir algunos para mostrar como hacer las cosas que están ocultas en la librería.
+4. Cuadernos extra. Podrían existir algunos para mostrar como hacer las cosas que están ocultas en la biblioteca.
 6. Mejorar el encabezado de todos los cuadernos.
 7. Graficar V a lo largo de una línea de campo.
 8. plotEfContribuciones: mejorar la figura. La proporción, las flechas.
