@@ -1,0 +1,45 @@
+Mencionar lo de UNLAM.
+
+- Agregar en objetivos de 01: 
+   1. Mostrar que l;as funcioones de la biblioteca son las mismas que usan en sus cálculos en papel.
+    2. "en rojo se muestra una carga positiva, las líneas de campo salen de ahí, blah blah
+    3. Agregar comentarios con pasos para el ejercicio.
+    4. No mostrar la función definitiva.
+    5. Sacar el print (y el np.round) y poner varias celdas.
+    6. Agregar comentario de que las flechas solo muestran dirección y sentido del campo.
+    7. Ejercicio final: agregar "copiar etc...."
+
+- Cambiar escalas de los gráficos a metros.
+
+- Conectar una figura con la otra parta indicar la misma región desde distintas vistas.
+
+em 03:
+    - eliminar E y V, usar impoirt
+
+    - ¿cuántos segmentos alcanzan? discusión sobre el resultado aproximado.
+
+    - Mover las contribuciones antes del cálculo.
+
+    - mover campo del hilo a la biblioteca
+    - sacar np.round y poner varias celdas
+
+final:
+    Pasar las indicaciones a markdown.
+    - ## Parte a)
+    - Agregar objetivos: 
+        - Mejorar la comprensión de líneas (o vectores)
+        - Problema libre (diseño de dispositivos) como ubicar las cargas para lograr algo.
+
+    Ejercicio 2:
+    - objetivos:
+        - resolver un problema práctico, que no tiene solución analítica o es muy difícil. (no es solo una cuestión académica, podés dar respuestas concretas a un "cliente")
+    - agregar en las indicaciones la lista de cargas.
+    - agregar un poco más explícito cómo analizar los resultados
+    - generar una imagen con los dos enfoques (analítico y fuerza bruta)
+
+
+
+Resultados:
+Este el primer intento
+como mejorarlo
+Mencionar lo de UNLAM. (ya llevan 6 semestres) y sigue cambiando.
