@@ -3,9 +3,7 @@
 
 
 
-- Cambiar escalas de los gráficos a metros.
 em 03:
-    - eliminar E y V, usar impoirt
 
     - ¿cuántos segmentos alcanzan? discusión sobre el resultado aproximado.
 
