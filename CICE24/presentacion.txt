@@ -1,0 +1,11 @@
+- Mostrar que l;as funcioones de la biblioteca son las mismas que usan en sus cálculos en papel.
+
+- Conectar una figura con la otra parta indicar la misma región desde distintas vistas.
+
+
+Mencionar lo de UNLAM.
+
+Resultados:
+Este el primer intento
+como mejorarlo
+Mencionar lo de UNLAM. (ya llevan 6 semestres) y sigue cambiando.
