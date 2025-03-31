@@ -1,6 +1,9 @@
 readme_local.txt
 electromagnetismo/Poisson-solver-2D/
 
+# Manim videos
+videos/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
