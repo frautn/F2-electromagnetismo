@@ -2,8 +2,8 @@
 https://github.com/ManimCommunity/manim
 
 
-conda create -n my-manim-environment
-conda activate my-manim-environment
+conda create -n my-manim
+conda activate my-manim
 conda install -c conda-forge manim
 
 Python: it seems it's not installed by default. VSCode installs it when you select this env for the first time.
@@ -12,3 +12,8 @@ VLC:
 Preferences -> Interface: Deselect "Resize interface to video size" to allow keeping the window size in VLC.
 Select "Pause on the last frame of a video."
 This way, after making changes and rendering again, we can click "back" (|<<) to replay the video and it will show the updated version.
+
+
+manim init project my-project --default
+
+manim -p -ql main.py DefaultTemplate
