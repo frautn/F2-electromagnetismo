@@ -1,3 +1,4 @@
+Indicaciones para usar Manim.
 
 https://github.com/ManimCommunity/manim
 
