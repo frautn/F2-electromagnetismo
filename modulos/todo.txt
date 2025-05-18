@@ -25,3 +25,5 @@ agregar cálculo del anillo exacto?
 
 12. em_04
    - Segmento uniforme. Cálculo de E en varias posiciones.
+
+13. Modulo extra: Soltar una particula en un campo, viendo equipotenciuales, y animar la trayectoria. Pedir un objetivo: donde soltarla para que salgo o no se escape.

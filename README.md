@@ -4,7 +4,7 @@
 
 
 <!-- [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) -->
-[![License: CC-BY 4.0](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) 2024 Edgardo Palazzo (epalazzo@fra.utn.edu.ar)
+[![License: CC-BY 4.0](https://img.shields.io/badge/License-CC--BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) 2025 Edgardo Palazzo (epalazzo@fra.utn.edu.ar)
 <!-- [![Github All Releases](https://img.shields.io/github/downloads/Edinburgh-Chemistry-Teaching/Data-driven-chemistry/total)]() -->
 <!-- [![DOI](https://jose.theoj.org/papers/10.21105/jose.00192/status.svg)](https://doi.org/10.21105/jose.00192) -->
 
