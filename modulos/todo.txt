@@ -1,6 +1,8 @@
 1. Terminar la función de la librería para indicar las posiciones de los vectores en quiver 3d.
    Agregar gráficos 3d en segmento densidad no uniforme y dos segmentos.
 
+2. En em03: agregar en Parte 1: en una parte 2 de se muestra el cálculo simbólico.
+
 2. Falta terminar "dos planos".
 agregar referencias campo del anillo y del plano.
 agregar cálculo del anillo exacto?
