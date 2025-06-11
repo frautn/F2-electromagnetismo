@@ -29,3 +29,12 @@ agregar cálculo del anillo exacto?
    - Segmento uniforme. Cálculo de E en varias posiciones.
 
 13. Modulo extra: Soltar una particula en un campo, viendo equipotenciuales, y animar la trayectoria. Pedir un objetivo: donde soltarla para que salgo o no se escape.
+
+14. Cambiar color del fondo:
+%%html
+<style>
+  body {background-color: #EAF6F6;}
+</style>
+<body>
+
+Podría ser solo para el encabezado. Pero en Vs code toma el cambio del fondo para todo el documento, y en colab solo en cada celda.
