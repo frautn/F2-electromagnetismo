@@ -1,0 +1,1 @@
+Campo eléctrico de una carga puntual: modificar para no usar un fondo blanco en las intersecciones, para poder usar la figura con un fondo de celda de otro color.
