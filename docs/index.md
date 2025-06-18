@@ -32,6 +32,14 @@ Material para realizar algunas prácticas computacionales que complementan el tr
 | 5   | Campos y equipotenciales en presencia de conductores |[![modulo_5](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em05_conductores.ipynb)|
 | 6   | Trabajo final de electrostática: plantilla para la entrega de los ejercicios propuestos |[![modulo_6](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em06_trabajo_final.ipynb)|
 
+## Material de referencia
+
+| Contenido                 | Enlace |
+|---------------------------------|------|
+| Clase sobre campo eléctrico | [![clase_1](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/complementos/em_comp01_clase_campo_electrico.ipynb) |
+| Clase sobre potencial eléctrico | [![clase_2](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/complementos/em_comp02_clase_potencial_electrico.ipynb) |
+| Clase sobre distribuciones continuas | [![clase_3](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/complementos/em_comp03_clase_distribuciones_continuas.ipynb) |
+
 
 ## Reconocimiento
 

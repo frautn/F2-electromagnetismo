@@ -26,6 +26,15 @@ Se trata de cuadernos Jupyter que intercalan explicaciones téoricas (texto y ec
 | 6   | Trabajo final de electrostática: plantilla para la entrega de los ejercicios propuestos |[![modulo_6](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/em06_trabajo_final.ipynb)|
 
 
+## Material de referencia
+
+| Contenido                 | Enlace |
+|---------------------------------|------|
+| Clase sobre campo eléctrico | [![clase_1](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/complementos/em_comp01_clase_campo_electrico.ipynb) |
+| Clase sobre potencial eléctrico | [![clase_2](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/complementos/em_comp02_clase_potencial_electrico.ipynb) |
+| Clase sobre distribuciones continuas | [![clase_3](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/complementos/em_comp03_clase_distribuciones_continuas.ipynb) |
+
+
 <!-- |     | Ejercicios del módulo 4 |[<img src="docs/assets/img/Icon_pdf_file.svg" alt="pdf_icon" width="25"/>]()| -->
 
 <!-- 
