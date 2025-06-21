@@ -36,9 +36,9 @@ Material para realizar algunas prácticas computacionales que complementan el tr
 
 | Contenido                 | Enlace |
 |---------------------------------|------|
-| Clase sobre campo eléctrico | [![clase_1](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/complementos/em_comp01_clase_campo_electrico.ipynb) |
-| Clase sobre potencial eléctrico | [![clase_2](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/complementos/em_comp02_clase_potencial_electrico.ipynb) |
-| Clase sobre distribuciones continuas | [![clase_3](docs/assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/complementos/em_comp03_clase_distribuciones_continuas.ipynb) |
+| Clase sobre campo eléctrico | [![clase_1](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/complementos/em_comp01_clase_campo_electrico.ipynb) |
+| Clase sobre potencial eléctrico | [![clase_2](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/complementos/em_comp02_clase_potencial_electrico.ipynb) |
+| Clase sobre distribuciones continuas | [![clase_3](assets/img/colab-badge-es.svg)](https://colab.research.google.com/github/frautn/F2-electromagnetismo/blob/main/modulos/complementos/em_comp03_clase_distribuciones_continuas.ipynb) |
 
 
 ## Reconocimiento
