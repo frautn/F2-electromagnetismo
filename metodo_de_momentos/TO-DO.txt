@@ -1,4 +1,6 @@
 
+- Graficar las cargas con color map para ver la distribución.
+
 - Armar biblioteca para momentos:
 * En los cálculos de Aij, revisar las funciones, quizás cambiar log por np.log y las demás.
 
